@@ -30,7 +30,6 @@ The deployment updates automatically once the main branch is update.
 GitHub: https://github.com/rotshidzw
 
 Twitter: https://twitter.com/footballlz
-
 LinkedIn: https://www.linkedin.com/in/rochidzwa-chester-8062b6211/
 
 ## 🤝 Contributing
