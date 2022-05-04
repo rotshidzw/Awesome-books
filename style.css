@@ -1,6 +1,7 @@
 html {
     background-image: url(../Vlk6rbA-beautiful-fall-backgrounds.jpg)
 }
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,7 +20,7 @@ html {
     align-items: center;
   }
   
-  .wraper {
+  .wrap {
     max-width: 90%;
     margin: 0 auto;
   }
@@ -81,7 +82,7 @@ html {
     font-weight: bold;
   }
   
-  .form-container {
+  .FORM-4 {
     width: 250px;
     align-self: center;
   }
@@ -103,11 +104,11 @@ html {
     filter: alpha(opacity=20);
   }
   
-  .nav-bar-options {
+  .opt {
     display: flex;
   }
   
-  .nav-link {
+  .navigation {
     margin-right: 10px;
   }
   
@@ -144,7 +145,7 @@ html {
     filter: alpha(opacity=20);
   }
   
-  .form-list {
+  .FORM-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,7 +157,7 @@ html {
     font-weight: bold;
   }
   
-  .book-list {
+  .list-books {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -168,7 +169,7 @@ html {
     border-radius: 17px;
   }
   
-  .form-title-add {
+  .FORM-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -202,7 +203,7 @@ html {
     color: rgb(178, 197, 10);
   }
   
-  .date-time p {
+  .dateTIME p {
     text-align: right;
     margin-top: 5px;
     color:#c24206;

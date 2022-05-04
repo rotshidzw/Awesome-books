@@ -1,47 +1,13 @@
+import Book from './modules/books.js';
+import { Factory } from './modules/factory.js';
 import { DateTime } from './luxon/luxon.js';
 const [navList, navAdd, navContact] = document.querySelectorAll('.link');
-const allBooks = document.querySelector('.book-list');
-const addBook = document.querySelector('.form-title-add');
+const allBooks = document.querySelector('.list-books');
+const addBook = document.querySelector('.FORM-2');
 const contact = document.querySelector('.contact');
 const datetime = document.getElementById('current-date');
 
-class Book {
-    constructor(title, author) {
-      this.title = title;
-      this.author = author;
-    }
-  }
- 
-  class Factory {
-    static retrieveBooks= () => {
-      const books = JSON.parse(localStorage.getItem('Books'));
-      document.getElementById('tbody').innerHTML = '';
-      for (let i = 0; i < books.length; i += 1) {
-        document.getElementById('tbody').innerHTML += `<tr><td class="book-container">"${books[i].title}" by ${books[i].author} <button class="btn deletebtn" type="button" id="id${i}">Remove</button></td></tr>`;
-      }
-    }
-
-      static createBook = (book) => {
-        if (localStorage.getItem('Books') === null) {
-          const books = [];
-          books.push(book);
-          localStorage.setItem('Books', JSON.stringify(books));
-        } else {
-          const books = JSON.parse(localStorage.getItem('Books'));
-          books.push(book);
-          localStorage.setItem('Books', JSON.stringify(books));
-        }
-        Factory.retrieveBooks();
-        document.getElementById('form').reset();
-      }
-
-      static removeBook = (i) => {
-        const books = JSON.parse(localStorage.getItem('Books'));
-        books.splice(i, 1);
-        localStorage.setItem('Books', JSON.stringify(books));
-        Factory.retrieveBooks();
-      }
-}
+Factory.retrieveBooks();
 
 const rederbook = () => {
     const deleteButtons = document.querySelectorAll('.deletebtn');
