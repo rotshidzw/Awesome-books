@@ -9,7 +9,6 @@ const contact = document.querySelector('.contact');
 const datetime = document.getElementById('current-date');
 
 Factory.retrieveBooks();
-
 const rederbook = () => {
     const deleteButtons = document.querySelectorAll('.deletebtn');
     deleteButtons.forEach((item) => {
@@ -22,7 +21,6 @@ const rederbook = () => {
     });
   };
   rederbook();
-
   navList.addEventListener('click', () => {
     allBooks.classList.remove('hidden');
     addBook.classList.add('hidden');
@@ -32,7 +30,6 @@ const rederbook = () => {
     navContact.classList.remove('active');
     rederbook();
   });
-  
   navAdd.addEventListener('click', () => {
     addBook.classList.remove('hidden');
     allBooks.classList.add('hidden');
@@ -42,7 +39,6 @@ const rederbook = () => {
     navContact.classList.remove('active');
     rederbook();
   });
-  
   navContact.addEventListener('click', () => {
     contact.classList.remove('hidden');
     allBooks.classList.add('hidden');
@@ -66,14 +62,12 @@ const rederbook = () => {
     showtipme();
     rederbook();
   };
-  
+
   document.getElementById('form').addEventListener('submit', (e) => {
     e.preventDefault();
     const title = document.getElementById('title').value;
     const author = document.getElementById('author').value;
-  
     const book = new Book(title, author);
-  
     Factory.createBook(book);
   });
   
