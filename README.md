@@ -9,7 +9,9 @@ This is a project that allows users to add/remove book from a list.
 ## Live Demo 
 live demo:https://rotshidzw.github.io/Awesome-books/
 ### Prerequisites
-You should make sure that you have installed in your computer the Node.js.
+You should make sure that you have installed in 
+
+your computer the Node.js.
 
 ### Setup
 You can clone this repository or simply download the zip file.
