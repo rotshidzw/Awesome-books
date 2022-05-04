@@ -2,7 +2,7 @@ export class Factory {
     static retrieveBooks= () => {
       const books = JSON.parse(localStorage.getItem('Books'));
       document.getElementById('tbody').innerHTML = '';
-      for (let i = 0; i < books.length; i += 1) {
+       for(let i = 0; i < books.length; i += 1) {
         document.getElementById('tbody').innerHTML += `<tr><td class="book-container">"${books[i].title}" by ${books[i].author} <button class="btn deletebtn" type="button" id="id${i}">Remove</button></td></tr>`;
       }
     }
