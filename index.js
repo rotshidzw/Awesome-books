@@ -10,11 +10,11 @@ const datetime = document.getElementById('current-date');
 
 Factory.retrieveBooks();
 const rederbook = () => {
-    const deleteButtons = document.querySelectorAll('.deletebtn');
-    deleteButtons.forEach((item) => {
+ const deleteButtons = document.querySelectorAll('.deletebtn');
+  deleteButtons.forEach((item) => {
       item.addEventListener('click', () => {
-        const index = item.id.slice(-item.id.length + 2);
-        Factory.removeBook(index);
+       const index = item.id.slice(-item.id.length + 2);
+       Factory.removeBook(index);
         Factory.retrieveBooks();
         rederbook();
       });
