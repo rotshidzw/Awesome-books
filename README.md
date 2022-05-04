@@ -28,7 +28,9 @@ The deployment updates automatically once the main branch is update.
 ## Authors
 👤 Author1
 GitHub: @rotshidzw
+
 Twitter: @footballlz
+
 LinkedIn: Rochidzwa Chester
 
 ## 🤝 Contributing

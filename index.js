@@ -36,7 +36,7 @@ const rederbook = () => {
     addBook.classList.remove('hidden');
     allBooks.classList.add('hidden');
     contact.classList.add('hidden');
-    navAdd.classList.add('active');
+     navAdd.classList.add('active');
     navList.classList.remove('active');
     navContact.classList.remove('active');
     rederbook();
@@ -45,7 +45,7 @@ const rederbook = () => {
   navContact.addEventListener('click', () => {
     contact.classList.remove('hidden');
     allBooks.classList.add('hidden');
-    addBook.classList.add('hidden');
+     addBook.classList.add('hidden');
     navContact.classList.add('active');
     navList.classList.remove('active');
     navAdd.classList.remove('active');
