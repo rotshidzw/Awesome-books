@@ -27,11 +27,11 @@ The deployment updates automatically once the main branch is update.
 
 ## Authors
 👤 Author1
-GitHub: @rotshidzw
+GitHub: https://github.com/rotshidzw
 
-Twitter: @footballlz
+Twitter: https://twitter.com/footballlz
 
-LinkedIn: Rochidzwa Chester
+LinkedIn: https://www.linkedin.com/in/rochidzwa-chester-8062b6211/
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
