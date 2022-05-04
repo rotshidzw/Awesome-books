@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=shadow-multiple">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Awesome books</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar wraper">
+            <div class="logo">Awesome Books</div>
+            <ul class="nav-bar-options">
+                <li class="nav-link list-link"><a class="link" href="#lists">List <span>|</span></a></li>
+                <li class="nav-link add-new-link"><a class="link active" href="#newbook">Add New <span>|</span></a></li>
+                <li class="nav-link contact-link"><a class="link" href="#contact">Contact </a></li>
+            </ul>
+        </nav>
+        <div class="date-time">
+            <p class="wraper" id="current-date"></p>
+        </div>
+    </header>
+    <div>
+        <div class="form-list">
+            <div class="book-list">
+                <h1>All awesome books</h1>
+                <table>
+                    <tbody id="tbody">
+                        
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="form-title-add">
+                <h2 class="title-form-add">Add a new book</h2>
+                <div class="form-container">
+                    <form id="form">
+                        <input type="text" name="title" id="title" placeholder="Title" required> 
+                        <br><br>
+                        <input type="text" name="author" id="author" placeholder="Author" required>
+                        <br><br>
+                        <button type="submit" class="btn btn-add">Add</button>
+                    </form>
+                </div>
+            </div>
+            <div class="contact hidden">
+                <h2 class="title-contact">Contact Information</h2>
+                <p>Do you have any questions or you just want to say "Hello"?</p>
+                <p class="contact-last-paragraph">You can reach out to us!</p>
+                <ul class="contact-details">
+                    <li class="contact-list">* Our email: mail@mail.com</li>
+                    <li class="contact-list">* Our phone number: 123456789</li>
+                    <li class="contact-list">* Our address: Streetname 123 City, Country</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        
+    
+    <footer class="footer">
+        <p>&copy; 2022 Awesomebooks.com</p>
+    </footer>
+    <script src="./main.js" type="module"></script>
+</body>
+</html>
