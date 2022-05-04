@@ -54,7 +54,6 @@ const rederbook = () => {
       showtipme();
     }, 1000);
   };
-  
   window.onload = () => {
     contact.classList.add('hidden');
     allBooks.classList.add('hidden');
@@ -70,4 +69,3 @@ const rederbook = () => {
     const book = new Book(title, author);
     Factory.createBook(book);
   });
-  
