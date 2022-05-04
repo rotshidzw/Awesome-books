@@ -7,7 +7,6 @@ const allBooks = document.querySelector('.list-books');
 const addBook = document.querySelector('.FORM-2');
 const contact = document.querySelector('.contact');
 const datetime = document.getElementById('current-date');
-
 Factory.retrieveBooks();
 const rederbook = () => {
  const deleteButtons = document.querySelectorAll('.deletebtn');
