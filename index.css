@@ -51,7 +51,7 @@ table {
 }
 
 h1 {
-  color: #f1c296;
+  color: #be6009;
   margin-bottom: 20px;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -178,7 +178,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #1230dd;
+  color: #0d0f1d;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
 }
